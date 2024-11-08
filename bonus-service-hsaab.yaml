@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-hs-repo
+  description: Pipeline component created
+  annotations:
+    backstage.io/techdocs-ref: dir:../
+  tags:
+    - hsaab
+spec:
+  type: service
+  owner: TeamA
+  lifecycle: experimental
